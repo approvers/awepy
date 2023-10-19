@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "awepy"
+version = "0.0.0"
+description = "An awesome Python template repository."
+authors = ["Colk-tech <master@colk.dev>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
