@@ -31,6 +31,20 @@ pytest-html = "^4.0.2"
 pytest-cov = "^4.1.0"
 pip-licenses = "^4.3.3"
 
+[tool.mypy]
+warn_return_any = true
+warn_unused_configs = true
+warn_no_return = true
+warn_unused_ignores = true
+no_implicit_optional = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+strict_optional = true
+ignore_missing_imports = true
+follow_imports = "skip"
+exclude = "migrations"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
